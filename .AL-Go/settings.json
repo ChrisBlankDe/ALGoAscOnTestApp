@@ -7,7 +7,5 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "enableCodeAnalyzersOnTestApps": true,
-  "useCompilerFolder": true,
-  "doNotPublishApps": true
+  "enableCodeAnalyzersOnTestApps": true
 }
