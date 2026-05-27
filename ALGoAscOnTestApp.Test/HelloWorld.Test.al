@@ -1,4 +1,4 @@
-codeunit 100010 "PTEHelloWorld Test"
+codeunit 1000010 "PTEHelloWorld Test"
 {
     Subtype = Test;
 

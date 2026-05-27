@@ -3,13 +3,14 @@
   "name": "ALGoAscOnTestApp.Test",
   "publisher": "ChrisBlankDe",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Dummy test app brief for analyzer compliance.",
+  "description": "Dummy test app description for analyzer compliance.",
+  "privacyStatement": "https://example.com/privacy",
+  "EULA": "https://example.com/eula",
+  "help": "https://example.com/help",
+  "url": "https://example.com/algoascontestapp-test",
+  "logo": "logo.png",
+  "contextSensitiveHelpUrl": "https://example.com/context-help",
   "dependencies": [
     {
       "publisher": "Microsoft",
@@ -29,12 +30,13 @@
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 100010,
-      "to": 100019
+      "from": 1000010,
+      "to": 1000019
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,

@@ -3,25 +3,27 @@
   "name": "ALGoAscOnTestApp",
   "publisher": "ChrisBlankDe",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Dummy brief for analyzer compliance.",
+  "description": "Dummy description for analyzer compliance.",
+  "privacyStatement": "https://example.com/privacy",
+  "EULA": "https://example.com/eula",
+  "help": "https://example.com/help",
+  "url": "https://example.com/algoascontestapp",
+  "logo": "logo.png",
+  "contextSensitiveHelpUrl": "https://example.com/context-help",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 100000,
-      "to": 100009
+      "from": 1000000,
+      "to": 1000009
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
